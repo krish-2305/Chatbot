@@ -18,11 +18,12 @@ Users can upload **PDF documents** and ask questions, and the chatbot will retri
 Bot/
 │
 ├── chatbot-rag/
-│ ├── api.py # FastAPI backend
-│ ├── chatbot.py # Helper functions (parse/store/ask)
-│ ├── app.py # Streamlit frontend
-│ ├── main.py
-├── requirements.txt # Python dependencies
-├── .env.example # Example environment variables
-├── .gitignore
-└── README.md
+│   ├── api.py          # FastAPI backend (API endpoints)
+│   ├── chatbot.py      # Core chatbot logic (parse, store, ask)
+│   ├── app.py          # Streamlit frontend UI
+│   ├── main.py         # Entry point (run services together)
+│
+├── requirements.txt    # Python dependencies
+├── .env.example        # Example environment variables
+├── .gitignore          # Ignore venv, .env, __pycache__, etc.
+└── README.md           # Project documentation
