@@ -14,16 +14,20 @@ Users can upload **PDF documents** and ask questions, and the chatbot will retri
 
 ---
 
-## 📂 Project Structure
-Bot/
-│
-├── chatbot-rag/
-│   ├── api.py          # FastAPI backend (API endpoints)
-│   ├── chatbot.py      # Core chatbot logic (parse, store, ask)
-│   ├── app.py          # Streamlit frontend UI
-│   ├── main.py         # Entry point (run services together)
-│
-├── requirements.txt    # Python dependencies
-├── .env.example        # Example environment variables
-├── .gitignore          # Ignore venv, .env, __pycache__, etc.
-└── README.md           # Project documentation
+# 📂 Bot Project
+
+* [README.md](./README.md)
+* [.env.example](./.env.example)
+* [.gitignore](./.gitignore)
+* [requirements.txt](./requirements.txt)
+* [chatbot-rag](./chatbot-rag)
+  * [api.py](./chatbot-rag/api.py) – FastAPI backend (API endpoints)
+  * [chatbot.py](./chatbot-rag/chatbot.py) – Core chatbot logic (parse, store, ask)
+  * [app.py](./chatbot-rag/app.py) – Streamlit frontend UI
+  * [main.py](./chatbot-rag/main.py) – Entry point (run services together)
+
+
+## Requirements
+- Python 3.8 or higher
+- Virtual environment (recommended)
+- Dependencies listed in `requirements.txt`
